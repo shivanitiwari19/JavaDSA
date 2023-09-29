@@ -8,16 +8,13 @@ public class Largest {
         int a = in.nextInt();
         int b = in.nextInt();
         int c = in.nextInt();
-        int lar;
-        if (a > b && a > c){
-            lar = a;
+        int max = a;
+        if (b > max){
+            max = b;
         }
-        else if (b > a && b > c){
-            lar = b;
+        if (c > max){
+            max = c;
         }
-        else {
-            lar = c;
-        }
-        System.out.println("The largest of the three numbers is: "+lar);
+        System.out.println("The largest of the three numbers is: "+max);
     }
 }

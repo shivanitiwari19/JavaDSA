@@ -7,8 +7,11 @@ public class Salary {
         System.out.print("Enter salary: ");
         Scanner input = new Scanner(System.in);
         int sal = input.nextInt();
-        if (sal >10000) {
+        if (sal > 10000) {
             sal = sal + 2000;
+        }
+        else if (sal > 20000){
+            sal += 3000;
         }
         else {
             sal = sal + 1000;

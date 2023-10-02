@@ -18,6 +18,7 @@ public class Swap {
         int temp=a;
         a=b;
         b=temp;
+        // change is valid in this block only
         /* the values are not going to be swapped. */
         /* see the file PassingExample for better understanding. */
     }

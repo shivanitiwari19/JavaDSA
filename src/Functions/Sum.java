@@ -17,6 +17,7 @@ public class Sum {
         int num2 = in.nextInt();
         int sum = num1 + num2;
         return sum;                            // this returns the integer value of sum into the function
+        /* end of function */
     }
     static void sum () {                       //void is used when we don't want to return anything.
         Scanner in = new Scanner(System.in);

@@ -1,4 +1,5 @@
 package Functions;
+// Shadowing does not work for methods
 
 public class Shadowing {
     static int x = 90;        // this will be shadowed

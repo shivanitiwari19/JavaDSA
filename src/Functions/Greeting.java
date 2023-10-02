@@ -5,7 +5,7 @@ public class Greeting {
         greeting();
     }
 
-    static void greeting()
+    static void greeting()                // this function doesn't return anythihg.
     {
         System.out.println("Hello World.");
     }

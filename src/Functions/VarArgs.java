@@ -8,6 +8,8 @@ public class VarArgs {
         multiple(2, 4, "Shivani", "Saakshi");
     }
 
+    // in case of overriding varargs, function call cannot be empty.
+
     static void multiple(int a, int b, String ...v){
         // in case of mixed argument types, varargs always come at the end.
 

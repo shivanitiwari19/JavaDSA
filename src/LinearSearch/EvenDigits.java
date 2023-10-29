@@ -4,7 +4,7 @@ public class EvenDigits {
     public static void main(String[] args) {
         int[] nums = {12,45,3443,785,-99};
         System.out.println(findnumbers(nums));
-        System.out.println(digits2(34566764));
+        System.out.println(digits2(-34566764));
     }
 
     static int findnumbers(int[] nums){
@@ -21,6 +21,8 @@ public class EvenDigits {
     }
 
     static int digits2(int num){
+        if(num<0)
+            num=num*-1;
         return (int)(Math.log10(num)) + 1;
     }
     static int digits(int num){

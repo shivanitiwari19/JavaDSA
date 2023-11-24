@@ -16,7 +16,7 @@ public class OrderAgnosticBS {
 
     static int OABS(int[] arr, int target){
         int start = 0;
-        int end = arr.length -1;
+        int end = arr.length - 1;
         boolean isAsc = arr[0] < arr[arr.length-1];
 
         while(start<=end) {

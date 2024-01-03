@@ -1,6 +1,7 @@
 package BinarySearch;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class BSin2DArray {
     public static void main(String[] args) {
@@ -10,8 +11,9 @@ public class BSin2DArray {
                 {28, 29, 37, 49},
                 {33, 34, 38, 50}
         };
-
-        System.out.println(Arrays.toString(search(arr, 90)));
+        Scanner in = new Scanner(System.in);
+        int key = in.nextInt();
+        System.out.println(Arrays.toString(search(arr, key)));
     }
 
     static int[] search(int[][] matrix , int target){

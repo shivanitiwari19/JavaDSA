@@ -8,4 +8,3 @@ public class MyArrayList {
         p2.getDesc();
     }
 }
-

@@ -1,11 +1,20 @@
 package Sorting;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Bubble {
     public static void main(String[] args) {
-        int [] arr = {5,6,3,8,5,0,2};
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int[] arr = new int[n];
+        for(int i = 0 ; i < n ; i++){
+            arr[i] = in.nextInt();
+        }
+        System.out.print("Before Sorting: ");
+        System.out.println(Arrays.toString(arr));
         BubbleSort(arr);
+        System.out.print("After Sorting: ");
         System.out.println(Arrays.toString(arr));
     }
 

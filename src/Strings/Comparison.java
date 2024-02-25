@@ -17,5 +17,7 @@ public class Comparison {
         System.out.println(name1 == name2);   // this will give false because the objects are created outside the string pool
                                               // and the ref vars are pointing to two different objects with the same value
         System.out.println(name1.equals(name2));
+
+        System.out.println(name1.charAt(0));  //method to access index values of a string.
     }
 }

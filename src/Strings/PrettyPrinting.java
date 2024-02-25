@@ -9,7 +9,7 @@ public class PrettyPrinting {
         System.out.printf("Pi : %.3f", Math.PI);
 
         System.out.println("\n");
-        System.out.printf("My name is %s and I %s.", "Shivani", "sing");
+        System.out.printf("My name is %s and I am a %s.", "Shivani", "singer");
 
     }
 }

@@ -17,5 +17,6 @@ public class Operators {
 
         System.out.println(new Integer(35) + " " + new ArrayList<>());
 
+        System.out.println("a" + 'a');
     }
 }

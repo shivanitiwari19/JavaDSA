@@ -7,6 +7,7 @@ public class StrBuilder {
             char ch = (char)('a' + i);
             builder.append(ch);
         }
-        System.out.println(builder.toString());
+        System.out.println(builder);
+        System.out.println(builder.reverse());
     }
 }

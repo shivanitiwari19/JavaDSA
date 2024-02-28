@@ -19,6 +19,8 @@ public class NumbersEx {
         System.out.println(n);
         print3(4);
     }
+
+    // func body is changing here
     static void print3(int n){
         System.out.println(n);
     }

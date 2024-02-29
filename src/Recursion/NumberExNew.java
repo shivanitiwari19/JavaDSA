@@ -15,6 +15,7 @@ public class NumberExNew {
         System.out.println(n);
 
         // Recursive function call
+        // also called tail recursion, because this is the last function call.
         print(n+1);
     }
 }

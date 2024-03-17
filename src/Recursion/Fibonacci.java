@@ -2,10 +2,12 @@ package Recursion;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        int ans = fibo(4);
-        System.out.println(ans);
+        System.out.println(fibFormula(50));
     }
 
+    static long fibFormula(int n){
+        return (long) (Math.pow(((1+Math.sqrt(5))/2), n) / Math.sqrt(5));
+    }
     static int fibo(int n){
         //base condition
         if(n<2)
